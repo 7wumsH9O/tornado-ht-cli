@@ -1,8 +1,9 @@
 ### 火币生态链
 1. 在.env文件添加你自己的私钥 `PRIVATE_KEY`
 
-挖矿例子:
+挖矿例子(需要安装 node v15.10.0):
 ```bash
+$ npm install
 $ # 存币挖矿命令
 $ ./cli.js deposit HT 0.1 --rpc https://http-mainnet.hecochain.com
 
